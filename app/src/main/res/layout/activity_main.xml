@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:stv="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.zxh.demo.MainActivity">
+
+    <com.allen.supertextviewlibrary.SuperTextView
+        android:id="@+id/super_tv"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        stv:sLeftBottomTextColor2="@color/colorAccent"
+        stv:sLeftBottomTextString="招商银行（8888）"
+        stv:sLeftBottomTextString2="限额说明>>"
+        stv:sLeftIconRes="@mipmap/ic_launcher"
+        stv:sLeftTopTextString="银行卡支付"
+        stv:sRightCheckBoxRes="@mipmap/ic_launcher"
+        stv:sRightCheckBoxShow="true"
+        stv:sLineShow="bottom"
+        stv:sUseRipple="true"
+        />
+
+    <!--<im.delight.android.webview.AdvancedWebView-->
+        <!--android:id="@+id/webview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+</LinearLayout>
